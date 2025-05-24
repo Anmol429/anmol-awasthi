@@ -1,0 +1,96 @@
+body{
+    font-family: sans-serif;
+    background: #000;
+}
+section{
+    height: 15px;
+}
+h1{
+    padding: 0;
+    margin: 0;
+    font-size: 50px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    width: 100%;
+    transform: translateY(-100%);
+    letter-spacing: 5px;
+}
+h1 span{
+    opacity: 0;
+    display: inline-block;
+    animation: amin 3s linear forwards;
+}
+@keyframes amin{
+    0%{
+        opacity: 0;
+        transform: rotateY(-90deg);
+        filter: blur(10px);
+    }
+    100%{
+        opacity: 1;
+        transform: rotateY(0deg);
+        filter: blur(0);
+    }
+}
+video{
+    height: 110%;
+    width: 110%;
+}
+h1 span:nth-child(1){
+    animation-delay: 1s;
+    color: aqua;
+    font-size: 90px;
+    font-style: bold;
+}
+h1 span:nth-child(2){
+    animation-delay: 1.5s;
+     color: aqua;
+}
+h1 span:nth-child(3){
+    animation-delay: 2s;
+     color: aqua;
+}
+h1 span:nth-child(4){
+    animation-delay: 2.5s;
+     color: aqua;
+}
+h1 span:nth-child(5){
+    animation-delay: 3s;
+     color: aqua;
+}
+h1 span:nth-child(6){
+    animation-delay: 3.5s;
+    color: rgb(14, 17, 212);
+    font-size: 90px;
+    font-style: bold;
+}
+h1 span:nth-child(7){
+    animation-delay: 4s;
+     color: rgb(14, 17, 212);
+}
+h1 span:nth-child(8){
+    animation-delay: 4.5s;
+     color: rgb(14, 17, 212);
+}
+h1 span:nth-child(9){
+    animation-delay: 5s;
+     color: rgb(14, 17, 212);
+}
+h1 span:nth-child(10){
+    animation-delay: 5.5s;
+     color: rgb(14, 17, 212);
+}
+h1 span:nth-child(11){
+    animation-delay: 6s;
+     color: rgb(14, 17, 212);
+}
+h1 span:nth-child(12){
+    animation-delay: 6.5s;
+     color: rgb(14, 17, 212);
+}
+/* .cdrive img{
+    margin: -100%;
+    
+} */
